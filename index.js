@@ -32,7 +32,7 @@ const acceder = confirm('Bienvenido a tu gestor de consultas para compras.  Para
 
             const diferencia = montos - deuda;
 
-            document.writeln('La diferencia para optar al programa es de: $' + diferencia + '<br>' + 'Año: ' + añoCredito + '<br>' + 'Deuda: $' + deuda + '<br>' + 'Valor operación: $' + valorOperacion + ')' + '<br><br>');
+            document.writeln('La diferencia para optar al programa es de: $' + diferencia + '<br>' + 'Año: ' + añoCredito + '<br>' + 'Deuda: $' + deuda + '<br>' + 'Valor operación: $' + valorOperacion  + '<br><br>');
 
             console.log('Diferencia a tomar en cuenta: ' + diferencia);
 
