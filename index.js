@@ -5,15 +5,15 @@ console.log('Año actual: ' + añoActual);
 
 const acceder = confirm('Bienvenido a tu gestor de consultas para compras.  Para consultar da click en "Aceptar/OK"');
 
-alert('IMPORTANTE:  introducir datos SIN puntos ni comas, solo números.');
+alert('IMPORTANTE:  introducir datos SIN PUNTOS NI COMAS, solo números, ejmp: 2010, 230000, 175000');
 
 if (acceder === true) {
     //Año en que se otorgó el crédito
-    const añoCredito = Number(prompt('Año del crédito: ', 'ejmp.: 2010 --> [SIN PUNTOS NI COMAS] <--'));
+    const añoCredito = Number(prompt('Año del crédito:'));
     //Valor de la operación (no el número en rojo)
-    const valorOperacion = Number(prompt('Valor de la operacion: ', 'ejmp.: 230000'));
+    const valorOperacion = Number(prompt('Valor de la operacion:'));
     //Deuda a la fecha 
-    const deuda = Number(prompt('Monto de la deuda: ', 'ejmp.: 175000'));
+    const deuda = Number(prompt('Monto de la deuda:'));
     //Diferencia de años multiplicado por la plusvalía correspondiente
     const años = (añoActual - añoCredito) * 0.05;
     console.log('Diferencia de años con plusvalía: ' + años);
