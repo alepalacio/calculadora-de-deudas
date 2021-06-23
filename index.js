@@ -5,7 +5,7 @@ console.log('Año actual: ' + añoActual);
 
 const acceder = confirm('Bienvenido a tu gestor de consultas para compras.  Para consultar da click en "Aceptar/OK"');
 
-alert('IMPORTANTE:  introducir datos SIN PUNTOS NI COMAS, solo números, ejmp: 2010, 230000, 175000');
+alert('IMPORTANTE:  introducir datos SIN PUNTOS NI COMAS, solo números, ejmp: 2010, 230000, 175000.');
 
 if (acceder === true) {
     //Año en que se otorgó el crédito
